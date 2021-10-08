@@ -1,1 +1,30 @@
-test
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FizzBuzz問題</title>
+  </head>
+  <body>
+    <h1>FizzBuzz問題</h1>
+    <form action="#" method="post">
+      <p>
+        FizzNum:
+        <input type="text" id="fizz" placeholder="整数値を入力してください" />
+      </p>
+      <p>
+        BuzzNum:
+        <input type="text" id="buzz" placeholder="整数値を入力してください" />
+      </p>
+    </form>
+    <input
+      class="button"
+      type="button"
+      onclick="showValue()"
+      value="実行"
+    /><br />
+    <p class="output-Text">【出力】</p>
+    <p id="output"></p>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
