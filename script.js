@@ -1,9 +1,9 @@
 const showValue = () => {
-  const textFizz = document.getElementById("fizz");
+  const textFizz = document.querySelector("#fizz");
   const inputFizz = Number(textFizz.value);
-  const textBuzz = document.getElementById("buzz");
+  const textBuzz = document.querySelector("#buzz");
   const inputBuzz = Number(textBuzz.value);
-  const output = document.getElementById("output");
+  const output = document.querySelector("#output");
   let fizzBuzzValue = "";
 
   if (
